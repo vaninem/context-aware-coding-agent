@@ -1,0 +1,20 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.venv*/
+.pytest_cache/
+.env
+.env.*
+!.env.example
+runtime/
+.runtime/
+*.egg-info/
+build/
+dist/
+
+# Portfolio documentation: keep only the two images referenced by README.
+/docs/*
+!/docs/demo-terminal-repair.png
+!/docs/demo-terminal-memory.png
+/DEVELOPMENT.md
+/1.txt
